@@ -23,3 +23,4 @@ with open("accounts.txt", 'r') as acc:
                                 print(f"{Fore.GREEN}Found - {username}:{password}")
                 else:
                         print(f"{Fore.RED}One of the details you enter is wrong. Try again - {username}")
+input(f"{Fore.CYAN}Press enter to continue >> ")

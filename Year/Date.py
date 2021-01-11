@@ -31,3 +31,4 @@ with open("accounts.txt", 'r') as acc:
                 if amount == 30:
                         print(f"{Fore.YELLOW}Sleeping for 1 Minute to not block accounts/block the ip")
                         sleep(60)
+input(f"{Fore.CYAN}Press enter to continue >> ")
